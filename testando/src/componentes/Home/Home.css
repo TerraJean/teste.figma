@@ -1,0 +1,106 @@
+.container-home {
+    background: linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.3) ), url('../../img/Background3.png') no-repeat;
+    width: 100%;    
+    height: 100vh;
+    margin: 0 auto;
+    background-size: 100%;    
+    
+}
+
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-home {
+    color: #fff;       
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+}
+
+.text-home .retangulo{
+    width: 5.6rem;
+    height: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 15%;
+    
+}
+
+.text-home h1 {
+    font-family: "Libre Caslon Display";
+    font-size: 5rem;
+}
+
+.text-home p {
+    margin: 2rem 0 3rem ;
+}
+
+.text-home p, .learn{
+    font-size: 1.2rem;
+    
+}
+
+.text-home .learn {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: .6rem 0.2rem ;
+    border-radius: 10px;
+    max-width: 153px;
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 1280px){
+
+    .text-home h1 {       
+        font-size: 3rem;
+    }
+
+    .text-home p, .learn{
+        font-size: 0.9rem;
+        
+    }
+
+    .text-home .learn {
+        border: 1px solid #fff;
+        text-align: center;
+        padding: .6rem 0.2rem ;
+        border-radius: 10px;
+        max-width: 120px;
+    }
+    
+    .text-home {
+        color: #fff;
+        max-width: 1200px;        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        padding-left: 10rem;        
+        
+    }
+
+
+    }
+
+    
+@media only screen and (max-width: 1080px){
+
+    .text-home {
+        padding-left: 7rem;
+    }
+
+    .text-home h1 {       
+        font-size: 2rem;
+    }
+
+    .text-home p, .learn{
+        font-size: 0.7rem;
+        
+    }
+
+    .text-home p {
+        margin: 1rem 0 1.5rem ;
+    }
+}

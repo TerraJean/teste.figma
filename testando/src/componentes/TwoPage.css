@@ -1,0 +1,23 @@
+.container {
+    max-width: 100%;      
+    min-height: 100vh;
+    
+}
+
+section {
+        
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;   
+    
+}
+
+section h2{
+    padding-bottom: 1.5rem;
+}
+
+.noticias {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

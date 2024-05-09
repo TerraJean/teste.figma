@@ -1,0 +1,38 @@
+.container-header {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;   
+    padding-top: 2rem;
+    align-items: center;
+    color: #fff;
+}
+
+.container-header span {
+    font-size: 30px;    
+    font-weight: 900;
+}
+
+.listMenu {
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li:last-child{
+    border: 1px solid #fff;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1280px){
+
+
+    .listMenu {
+        font-size: 0.8rem;
+        gap: 1.5rem;
+    }
+}
